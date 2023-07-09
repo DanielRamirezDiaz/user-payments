@@ -8,6 +8,8 @@ In order to run this project you must:
 
 2.- On the client-app folder run `npm install` and `npm run dev`.
 
-3.- Create a database named  `UserPayments` and run the `update-database` command from the nuget package manager console.
+3.- Set the the `ASPNETCORE_ENVIRONMENT` variable to Local. Run `$env:ASPNETCORE_ENVIRONMENT="Local"` on PS or the package manager console.
 
-4.- Run web app for the .NET solution.
+4.- Create a database named  `UserPayments` and run the `update-database` command from the nuget package manager console (Startup project: UserPayments; package manager console project: Data).
+
+5.- Run web app for the .NET solution.
